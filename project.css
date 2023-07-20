@@ -1,0 +1,49 @@
+.nav-link{
+    color: rosybrown;
+font-family: Playfair Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav-link:hover{
+    color: #03A9F4;;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.list-item:first-child{
+    background-color: grey;
+    width: 300px;
+}
+
+.list-item:nth-child(even){
+    background-color: aquamarine;
+    width: 200px;
+}
+.list-item:nth-child(odd){
+    background-color: green;
+    width: 200px;
+}
+.list-item:last-child{
+    background-color: yellow;
+    width: 300px;
+}
+.button:focus{
+    outline: none;
+    border: 10px solid sandybrown;
+}
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.name-item{
+    font-family: 'Ubuntu', sans-serif;
+}
+.item{
+    font-size: 14px;
+}
+
+
